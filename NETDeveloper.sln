@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializacionDeObjetos", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{DB200D82-CCB8-4E55-8B08-F0B61E637818}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEach", "ForEach\ForEach.csproj", "{C4FE8858-77C3-4D92-A1FC-8DA513D6F36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListCommonMethods", "ListCommonMethods\ListCommonMethods.csproj", "{30A1AEAE-3D4C-4B71-B532-4E71C3311719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{DB200D82-CCB8-4E55-8B08-F0B61E637818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB200D82-CCB8-4E55-8B08-F0B61E637818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB200D82-CCB8-4E55-8B08-F0B61E637818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FE8858-77C3-4D92-A1FC-8DA513D6F36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FE8858-77C3-4D92-A1FC-8DA513D6F36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FE8858-77C3-4D92-A1FC-8DA513D6F36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FE8858-77C3-4D92-A1FC-8DA513D6F36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A1AEAE-3D4C-4B71-B532-4E71C3311719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A1AEAE-3D4C-4B71-B532-4E71C3311719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A1AEAE-3D4C-4B71-B532-4E71C3311719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A1AEAE-3D4C-4B71-B532-4E71C3311719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
