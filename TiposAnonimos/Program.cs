@@ -18,7 +18,7 @@
             var person1 = new[]
             {
                new{ Name = "Eddy", Age = 28, fecha = DateTime.Now },
-             
+
             };
 
             foreach (var p in person1)

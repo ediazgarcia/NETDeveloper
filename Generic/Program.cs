@@ -33,13 +33,13 @@
                 if (_index < _elements.Length)
                 {
                     _elements[_index] = x;
-                    _index++;   
+                    _index++;
                 }
             }
 
             public T GetElement(int i)
             {
-                while (i <= _index && i>=0)
+                while (i <= _index && i >= 0)
                 {
                     return _elements[i];
                 }

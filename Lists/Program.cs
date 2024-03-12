@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-
-namespace Lists
+﻿namespace Lists
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+
             // List
 
             List<int> numbers = new List<int>();

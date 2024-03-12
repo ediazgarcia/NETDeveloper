@@ -16,8 +16,8 @@
             int total;
             DateTime date;
 
-            public Sale(int total, DateTime date) 
-            { 
+            public Sale(int total, DateTime date)
+            {
                 this.total = total;
                 this.date = date;
             }
@@ -25,7 +25,7 @@
             public string GetInfo()
             {
                 return total + " " + date.ToLongDateString();
-                                
+
             }
 
             public void Show()

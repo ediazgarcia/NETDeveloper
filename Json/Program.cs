@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Contracts;
-
-namespace Json
+﻿namespace Json
 {
     internal class Program
     {
@@ -14,8 +12,8 @@ namespace Json
             };
 
             string json = "{\"Name\": \"Cerveza Republica\", \"Brand\": \"Alofoke\"}";
-            
-            
+
+
         }
 
         public class Beer

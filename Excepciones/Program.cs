@@ -1,10 +1,4 @@
-﻿using System;
-using System.IO;
-
-
-
-
-namespace Excepciones
+﻿namespace Excepciones
 {
     internal class Program
     {
@@ -14,16 +8,16 @@ namespace Excepciones
 
             try
             {
-            string content = File.ReadAllText(@"C:\\Users\\eddym\\Desktop\\workspace\\args.txt");
-            Console.WriteLine(content);
+                string content = File.ReadAllText(@"C:\\Users\\eddym\\Desktop\\workspace\\args.txt");
+                Console.WriteLine(content);
 
-               throw new Exception("Ocurrio algo");
+                throw new Exception("Ocurrio algo");
             }
-            catch(FileNotFoundException ex)
+            catch (FileNotFoundException ex)
             {
                 Console.WriteLine("El archivo no existe");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

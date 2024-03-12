@@ -19,7 +19,7 @@
             private string _name;
             private int _age;
 
-            public Persona(string name, int age) 
+            public Persona(string name, int age)
             {
                 _name = name;
                 _age = age;
@@ -51,7 +51,7 @@
         {
             private string _lenguage;
 
-            public Dev(string name, int age, string lenguage) : base (name, age) 
+            public Dev(string name, int age, string lenguage) : base(name, age)
             {
                 _lenguage = lenguage;
             }

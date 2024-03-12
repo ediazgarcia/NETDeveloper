@@ -12,7 +12,7 @@
         }
 
 
-       public class A
+        public class A
         {
             public virtual string Hi()
             {
@@ -25,7 +25,7 @@
         {
             public override string Hi()
             {
-                return base.Hi() + " " +  "Hola soy B";
+                return base.Hi() + " " + "Hola soy B";
             }
         }
 

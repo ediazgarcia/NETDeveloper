@@ -31,13 +31,13 @@
                 }
             }
 
-            public string Date 
+            public string Date
             {
                 get
                 {
                     return date.ToLongDateString();
                 }
-            
+
             }
 
             public Sale(int total, DateTime date)

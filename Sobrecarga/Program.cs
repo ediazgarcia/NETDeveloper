@@ -6,7 +6,7 @@
         {
 
             Math math = new Math();
-            Console.WriteLine(math.Sum(1,2));
+            Console.WriteLine(math.Sum(1, 2));
             Console.WriteLine(math.Sum("1", "2"));
 
             int[] numbers = { 1, 2, };

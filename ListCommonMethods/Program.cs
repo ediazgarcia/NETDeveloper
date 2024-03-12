@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-
-namespace ListCommonMethods
+﻿namespace ListCommonMethods
 {
     internal class Program
     {
@@ -41,7 +38,7 @@ namespace ListCommonMethods
         public static void Show(List<int> numbers)
         {
             Console.WriteLine("-- Numeros --");
-            foreach(var n in numbers)
+            foreach (var n in numbers)
             {
                 Console.WriteLine(n);
             }

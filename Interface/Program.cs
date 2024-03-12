@@ -28,17 +28,17 @@
         {
             Console.WriteLine("-- Mostramos los peces --");
             int i = 0;
-            while (i< fish.Length)
+            while (i < fish.Length)
             {
                 Console.WriteLine(fish[i].Swim());
                 i++;
             }
         }
 
-        public class Shark: IAnaimal, IFish
+        public class Shark : IAnaimal, IFish
         {
-            public string Name { get; set; }    
-            public int Speed { get; set; }  
+            public string Name { get; set; }
+            public int Speed { get; set; }
 
             public Shark(string Name, int Speed)
             {
@@ -56,12 +56,12 @@
 
         public interface IAnaimal
         {
-            public string Name { get; set;}
+            public string Name { get; set; }
         }
 
         public interface IFish
         {
-            public int Speed { get; set;}
+            public int Speed { get; set; }
 
             public string Swim();
 

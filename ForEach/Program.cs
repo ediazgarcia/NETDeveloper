@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
-
-namespace ForEach
+﻿namespace ForEach
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-          var list = new List<int>()
+            var list = new List<int>()
             {
                 25,36,85,69
             };

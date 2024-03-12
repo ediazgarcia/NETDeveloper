@@ -15,7 +15,7 @@
             {
                 Console.WriteLine("Iteracion de i" + i);
                 // i = i + 1;
-                i ++;
+                i++;
             }
 
             int j = 0;
@@ -23,7 +23,7 @@
             while (j < 100)
             {
 
-                if (j>10)
+                if (j > 10)
                 {
                     break;
                 }
@@ -40,7 +40,7 @@
             while (index < fruits.Length)
             {
                 Console.WriteLine(fruits[index]);
-               index ++;
+                index++;
             }
 
 
@@ -52,7 +52,7 @@
                 Console.WriteLine("Entro una vez!");
 
             } while (run);
-            
+
 
         }
     }
